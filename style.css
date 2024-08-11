@@ -1,3 +1,140 @@
-p {
-    color: whitesmoke;
+body {
+  background-color: #f0e8da;
+  font-family: DM Sans;
+  font-size: 15px;
+  line-height: 1.2;
+  padding: 0;
+}
+
+#encabezado{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#encabezado{
+  height: 50%;
+}
+
+#logo{
+  width: 300px;
+  /*background-color: aqua;*/
+  margin: -50px;
+}
+
+#loggin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#etiquetasesion{
+  color:#240303;
+  /*background-color: #C4847C;*/
+  /*padding: 10px 15px;  Espacio interno: 10px arriba/abajo y 15px izquierda/derecha */
+}
+
+#pilares {
+  max-width: 75%;
+  height: 250px;
+}
+
+.info {
+  font-size: 100%;
+}
+
+.titulo{
+  color:#240303;
+}
+
+#pregunta{
+  color: #240303;
+  font-size: 100%;
+  line-height: 1.2;
+}
+
+#enviar {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#boton-respuesta{
+  width: 50%;
+}
+
+#puntajeveinte {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  height: auto;
+}
+
+#puntajetreinta {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  height: auto;
+}
+
+#puntajecincuenta {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  height: auto;
+}
+
+#puntajesesenta {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  height: auto;
+}
+
+#puntajeochenta {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  height: auto;
+}
+
+#puntajecien {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  height: auto;
+}
+
+#puntajefinal{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: Modern Antiqua;
+}
+
+#logopilares{
+  width: 20%;
+  height: 60px;
+}
+
+#botonPuntaje {
+  padding: 5px;
+  background-color: rgb(129, 59, 59);
+  color: white;
+}
+
+@media (max-width: 600px) {
+  /* Tamaño de letra más grande para las respuestas */
+  input[type="radio"], label {
+      font-size: 18px;
+  }
+  #pilares {
+      max-width: 75%;
+      height: 75%;
+  }
 }
